@@ -1,0 +1,114 @@
+/*Name: Aryan Gajjar       Email: agajjar2211@conestogac.on.ca */
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 16px/1.5 Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    border : 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 1400px 0;
+}
+section {
+    text-align: justify;
+}
+header h1, footer h1 {
+    color: #ffffff;
+    font-variant: small-caps;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #666;
+}
+
+main {
+    float: left;
+    width: 66.66%;
+    padding: 0 20px;
+}
+/*styling the additional information section*/
+
+div {
+    width: 290px;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 100;
+    margin-top: -210px;
+
+}
+aside {
+    
+    text-align: center;
+    float: right;
+    width: 33.33%;
+    padding: 20px;
+    margin: 0px;
+    position: absolute;
+    right:0;
+  
+}
+aside h2 {
+    float: right;
+    font-size: 1.5em;
+    margin: 0.5px;
+    margin-top: 0px;
+    position : absolute;
+    right:240px;
+}
+aside ul {
+    list-style: none;
+    line-height: 2;
+    position:absolute;
+    right:290px;
+    margin-top: 40px;
+}
+aside ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+aside ul li a:hover {
+    color: rgb(14, 14, 252);
+}
+
+.mainimg {
+    
+    margin-bottom: 20px;
+}
+
+.mainimg figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #666;
+}
+
+footer p a {
+    color: #333;
+}
+
+footer p a:hover {
+    color: #f00;
+}
