@@ -1,6 +1,9 @@
 /*Name: Aryan Gajjar       Email: agajjar2211@conestogac.on.ca */
+
+/*over all styling of the page*/
+
 body {
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
     font: 16px/1.5 Arial, sans-serif;
@@ -14,12 +17,6 @@ header {
     margin: 20px 0;
 }
 
-footer {
-    border : 2px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 1400px 0;
-}
 section {
     text-align: justify;
 }
@@ -38,6 +35,7 @@ main {
     width: 66.66%;
     padding: 0 20px;
 }
+
 /*styling the additional information section*/
 
 div {
@@ -45,9 +43,8 @@ div {
     height: 500px;
     padding: 10px;
     border: 2px solid white;
-    margin: 100;
-    margin-top: -210px;
-
+    margin: 0;
+    margin-top: -800px;
 }
 aside {
     
@@ -79,27 +76,34 @@ aside ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
 aside ul li a:hover {
     color: rgb(14, 14, 252);
 }
+
+/*main image styling*/
 
 .mainimg {
     
     margin-bottom: 20px;
 }
-
 .mainimg figcaption {
     font-weight: bold;
     font-variant: small-caps;
 }
-
 q {
     font-family: cursive;
     font-style: italic;
     font-size: 1.2em;
 }
 
+/* styling footer*/
+
+footer {
+    border : 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 1000px 0;
+}
 footer p {
     font-size: 0.8em;
     color: #666;
