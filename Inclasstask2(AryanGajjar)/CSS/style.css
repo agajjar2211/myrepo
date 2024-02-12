@@ -1,0 +1,79 @@
+/* Name: Aryan Gajjar 
+ * Email: agajjar2211@conestogac.on.ca*/
+
+/*styling body*/
+body {
+    font               : 16px/1.5 sans-serif;
+    background-color   : hsla(42, 46%, 72%, 0.5);
+    height             : 100vh;
+    width              : 100vw;
+}
+div {
+    border: 5px solid black;
+    margin: 20px;
+
+}
+.structural {
+    border: 5px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+body h2 {
+    background-color : #e23; 
+    font-size: 20px;
+}
+
+main{
+    float: left;
+    width: 60%;
+}
+
+aside {
+    background-color: hsla(224, 31%, 50%, 1);
+    float: right;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin-right:  5%;
+}
+
+footer{
+    clear: both;
+}
+
+#para1{
+    font-size: 15px;
+    color: rgb(180,180,100)
+}
+
+#para2 {
+    font-size: 15px;
+    color: rgb(25,100,100);
+}
+
+.structural header {
+    background-color: hsl(400,100%,50%);
+}
+
+.structural main {
+    background-color: hsl(400,100%,10%);    
+}
+
+.structural aside {
+    background-color: hsla(100,100%,10%);    
+}
+
+.structural footer {
+    background-color: hsl(100,100%,10%);    
+}
+
+a:hover ::after {
+    color:#e23
+}
+
+footer p {
+    color: azure;
+    font-size: small;
+    background-color: hsla(170, 95%, 16%, 1);
+}
